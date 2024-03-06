@@ -9,5 +9,13 @@ Rectangle {
     top:parent.top
     }
 
-    color:"orange"
+    color:"white"
+
+    Image {
+        id: teslaCar
+        anchors.centerIn: parent
+        width: 0.85 * parent.width
+        fillMode: Image.PreserveAspectFit
+        source: "TeslaModel.png"
+    }
 }
